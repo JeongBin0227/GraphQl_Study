@@ -31,7 +31,7 @@ const addressType = new Graphql.GraphQLObjectType({
 const userType = new Graphql.GraphQLObjectType({
   name: "User",
   fields: {
-    id: { type: Graphql.GraphQLInt },
+    id: { type: Graphql.GraphQLInt },3
     name: { type: Graphql.GraphQLString },
     username: { type: Graphql.GraphQLString },
     email: { type: Graphql.GraphQLString },
